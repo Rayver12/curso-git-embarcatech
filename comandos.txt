@@ -1,0 +1,11 @@
+ 5403  mkdir curso-git-embarcatech
+ 5404  cd curso-git-embarcatech
+ 5405  git init
+ 5406  git branch -m "main"
+ 5407  git config user.name "Rafael Avelino dos Santos"
+ 5408  git config user.email "rafaelavelino0908@gmail.com"
+ 5409  vim arq1.txt
+ 5410  git add .
+ 5411  git commit -m "Primeiro Commit"
+ 5412  git remote add origin https://github.com/Rayver12/curso-git-embarcatech.git
+ 5413  git push -u origin main
